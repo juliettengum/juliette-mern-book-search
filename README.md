@@ -60,6 +60,11 @@ npm run dev
 ```
 * Open your browser and navigate to` http://localhost:3000` to see the application.
 
+## screenshots
+![alt text](<client/src/assets/images/Screenshot 2024-08-07 194117.png>)
+![alt text](<client/src/assets/images/Screenshot 2024-08-07 194211.png>)
+![alt text](<client/src/assets/images/Screenshot 2024-08-07 194356.png>)
+![alt text](<client/src/assets/Screenshot 2024-08-07 194709.png>)
 ## Deployment
 # Deploying the Server on Render
 Create a new Web Service on Render.
