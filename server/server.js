@@ -103,6 +103,8 @@
 
 // startApolloServer();
 
+require('dotenv').config();
+
 const express = require('express');
 const { ApolloServer } = require('@apollo/server');
 const { expressMiddleware } = require('@apollo/server/express4');
@@ -128,8 +130,7 @@ const startApolloServer = async () => {
   // Apply Apollo middleware with authentication context
   app.use('/graphql', expressMiddleware(server, {
     context: async ({ req }) => {
-      const authContext = authMiddleware(req);
-      return { user: authContext.user };
+      return authMiddleware(req);
     }
   }));
 
