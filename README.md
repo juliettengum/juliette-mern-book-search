@@ -121,7 +121,7 @@ Email: `juliettengum19@gmail.com`
 
 
 ## Link to Deployed Application
-[Link](https://mern-book-search-b6mz.onrender.com)
+[Link]
 
 ## Application Screenshots
 ### Homepage
